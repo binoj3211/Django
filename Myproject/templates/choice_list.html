@@ -1,0 +1,10 @@
+<div>
+    {% for data in dataset %}
+    <h2> {{data.question.question_text}}</h2><br/>
+    <h3> {{ data.Choice_1}}<br/> </h3>
+    <h3> {{ data.Choice_2}}<br/></h3>
+    <h3> {{ data.Choice_3}}<br/></h3>
+    <hr/>
+    {% endfor %} 
+
+</div>
